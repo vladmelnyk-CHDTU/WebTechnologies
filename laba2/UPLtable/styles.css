@@ -15,12 +15,14 @@ body {
 }
 
 .wrapper {
-  padding: 100px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  padding: 0 100px;
 }
 
 .table {
-  width: 50%;
-  height: 100%;
   text-align: center;
   border-collapse: collapse;
   text-indent: initial;
@@ -35,8 +37,7 @@ thead {
 
 th,
 td {
-  /* border: 0px solid rgb(0, 0, 0); */
-  padding: 3px 10px;
+  padding: 10px 10px;
   font-weight: 400;
 }
 .team-score {
@@ -45,6 +46,7 @@ td {
 tr > td:nth-child(2),
 tr > th:nth-child(2) {
   text-align: start;
+  width: 300px;
 }
 
 .first {
