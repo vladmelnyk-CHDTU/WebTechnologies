@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.slider__wrapper {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  /* overflow: hidden; */
+}
+.slider {
+  overflow: hidden;
+}
+
+.slider__content {
+  display: flex;
+  gap: 20px;
+}
+
+.arrow-left {
+  background: url('./arrow-left.svg') no-repeat;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
+.arrow-right {
+  background: url('./arrow-right.svg') no-repeat;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
+
+.item {
+  /* padding: 20px; */
+  flex-shrink: 0;
+  width: 150px;
+  height: 200px;
+  background-color: rgb(204, 152, 84);
+}
+
+.item:nth-child(odd) {
+  background-color: rgb(119, 134, 182);
+}
