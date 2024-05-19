@@ -1,0 +1,8 @@
+import 'bootstrap'
+import '../css/base.css'
+import '../css/vendor.css'
+import '../css/main.css'
+import '../js/plugins.js'
+import '../js/modernizr.js'
+import '../js/pace.min.js'
+import '../js/main.js'
