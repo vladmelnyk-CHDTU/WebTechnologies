@@ -3,7 +3,6 @@
  *
  * ------------------------------------------------------------------- */
 import '../css/base.scss'
-import '../css/vendor.scss'
 import '../css/main.scss'
 import '../src/vendor.js'
 ;(function ($) {
