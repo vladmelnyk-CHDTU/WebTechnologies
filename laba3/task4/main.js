@@ -11,8 +11,7 @@ let gap = 20
 let itemsCount = sliderItems.length
 let itemWidth = sliderItems[0].clientWidth
 let sliderWidth = itemWidth * itemsInView
-
-sliderElement.style.width = `${sliderWidth + gap * itemsInView}px`
+sliderElement.style.width = `${sliderWidth + gap * (itemsInView - 1)}px`
 
 leftArrow.addEventListener('click', () => {
   if (index > 0) {

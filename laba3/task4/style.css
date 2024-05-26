@@ -30,6 +30,7 @@ body {
 .slider__content {
   display: flex;
   gap: 20px;
+  transition: 0.3s;
 }
 
 .arrow-left {
